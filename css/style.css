@@ -153,9 +153,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   position: relative; }
 
 .logo {
-  font-size: 24px;
-  color: #ffffff;
-  font-weight: 700; }
+  font-size: 20px;
+  color: #111111;
+  font-weight: 200px; 
+  font-family: "Source Serif Pro", serif;
+letter-spacing: 2px;}
+  
   .logo:hover {
     color: #ffffff; }
 
@@ -181,7 +184,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         padding: 10px 15px;
         display: inline-block;
         text-decoration: none !important;
-        color: rgba(255, 255, 255, 0.7); }
+        color: balck; }
         .site-nav .site-navigation .site-menu > li > a:hover {
           color: #ffffff; }
       .site-nav .site-navigation .site-menu > li.cta-button a {
@@ -194,7 +197,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
           background: #1A374D;
           border-color: #1A374D; }
       .site-nav .site-navigation .site-menu > li.active > a {
-        color: #ffffff; }
+        color: black  ; }
     .site-nav .site-navigation .site-menu .has-children {
       position: relative; }
       .site-nav .site-navigation .site-menu .has-children > a {
@@ -549,14 +552,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .hero {
   padding: 7rem 0 10rem 0;
-  background: #c5a01a;
+  background: #ffcf23;
   margin-bottom: 100px; }
   .hero.hero-inner {
     padding: 9rem 0 7rem 0;
     margin-bottom: auto;
     background: #ffcf23; }
   .hero h1 {
-    color: #ffffff;
+    color: black;
     font-size: 60px; }
     @media (max-width: 991.98px) {
       .hero h1 {
@@ -1025,7 +1028,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     border-radius: 50%; }
 
 .cta-section {
-  background: #1A374D; }
+  background: #ffcf23; }
 
 .custom-block {
   margin-bottom: 30px; }
@@ -1384,3 +1387,27 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       content: "\f095"; }
     .site-footer ul.quick-info li.address:before {
       content: "\e8b4"; }
+
+
+      /* botão do Whatsapp */
+
+      .whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25D366;
+        color: white;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .whatsapp-button:hover {
+        background-color: #1ebe57;
+    }

@@ -19,3 +19,14 @@ function enviarWhatsApp() {
     var url = "https://api.whatsapp.com/send?phone=" + numeroWhatsApp + "&text=" + encodeURIComponent(texto);
     window.open(url, "_blank");
 }
+
+
+function enviarWhatsApp2() {
+    // var select1 = document.getElementById("campo1").value;
+    // var select2 = document.getElementById("campo2").value;
+    // var select3 = document.getElementById("campo3").value;
+    // var texto = "Tenho interesse em uma viagem para " + select1 + ", com " + select2 + " por " + select3;
+    var numeroWhatsApp = "5511999777564";  
+    var url = "https://api.whatsapp.com/send?phone=" + numeroWhatsApp ;
+    window.open(url, "_blank");
+}
