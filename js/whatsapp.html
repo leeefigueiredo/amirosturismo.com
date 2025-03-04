@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo</title>
+    <script>
+        function enviarWhatsApp() {
+            var select1 = document.getElementById("campo1").value;
+            var select2 = document.getElementById("campo2").value;
+            var texto = "Campo 1: " + select1 + ", Campo 2: " + select2;
+            var numeroWhatsApp = "5551999999999";  // Substitua pelo número de telefone desejado
+            var url = "https://api.whatsapp.com/send?phone=" + numeroWhatsApp + "&text=" + encodeURIComponent(texto);
+            window.open(url, "_blank");
+        }
+    </script>
+</head>
+<body>
+    <select id="campo1">
+        <option value="Opção 1.1">Opção 1.1</option>
+        <option value="Opção 1.2">Opção 1.2</option>
+        <!-- Adicione mais opções aqui -->
+    </select>
+
+    <select id="campo2">
+        <option value="Opção 2.1">Opção 2.1</option>
+        <option value="Opção 2.2">Opção 2.2</option>
+        <!-- Adicione mais opções aqui -->
+    </select>
+
+    <button onclick="enviarWhatsApp()">Enviar por WhatsApp</button>
+</body>

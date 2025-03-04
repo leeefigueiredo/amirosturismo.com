@@ -92,8 +92,8 @@
 							<div class="col-12">
 								<form class="form">
 									<div class="row mb-2">
-										<div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-4">
-											<select name="" id="" class="form-control custom-select">
+										<!-- <div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-4">
+											<select name="" id="cidadewpp" class="form-control custom-select">
 												<option value="">Paris</option>
 												<option value="">Porto Seguro</option>
 												<option value="">Miami</option>
@@ -105,27 +105,54 @@
 												<option value="">Cancun</option>
 												<option value="">Outros Destinos</option>
 											</select>
-										</div>
-										<div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-5">
-											<!-- <input type="text" class="form-control" name="daterange" placeholder="01/10 - 15/10"> -->
-											<input type="text" class="form-control"  placeholder="01/10/2026 - 15/10/2026">
-										</div>
-										<div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-3">
-											<input type="text" class="form-control" placeholder="2 Adultos + 1 Criança">
-										</div>
+										</div>  -->
+										<!-- <div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-5">
+											<input type="text" class="form-control" name="daterange" placeholder="01/10 - 15/10">
+											<input type="text" id="datawpp" class="form-control"  placeholder="01/10/2026 - 15/10/2026">
+										</div> -->
+										<!-- <div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-3">
+											<input type="text" id="pessoaswapp" class="form-control" placeholder="2 Adultos + 1 Criança">
+										</div> -->
 
 									</div>    
 									<div class="row align-items-center">
-										<div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-4">
+										<!-- <div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-4">
 											<input type="submit" class="btn btn-primary btn-block" value="Search">
-										</div>
-										<div class="col-lg-8">
-											<label class="control control--checkbox mt-3">
+									
+										</div> -->
+										 <div class="col-lg-8">
+											<!-- <label class="control control--checkbox mt-3">
 												<span class="caption">Save this search</span>
 												<input type="checkbox" checked="checked" />
 												<div class="control__indicator"></div>
-											</label>
+											</label> -->
+
+											<select id="campo1" class="form-control">
+												<option value="Paris">Paris</option>
+												<option value="Londres">Londres</option>
+												<!-- Adicione mais opções aqui -->
+											</select><br>
+										
+											<select id="campo2" class="form-control">
+												<option value="1 Adulto">1 adulto</option>
+												<option value="2 Adultos">2 adultos</option>
+												<!-- Adicione mais opções aqui -->
+											</select><br>
+										
+											<select id="campo3"class="form-control">
+												<option value="2 dias">2 dias</option>
+												<option value="3 dias">3 dias</option>
+												<option value="4 dias">4 dias</option>
+												<!-- Adicione mais opções aqui -->
+											</select><br>
+
+											<button class="btn btn-primary btn-block" onclick="enviarWhatsApp()">Enviar por WhatsApp</button>
+
 										</div>
+										<div>
+											
+										</div>
+
 									</div>
 								</form>
 							</div>
@@ -597,6 +624,7 @@
 	<script src="js/aos.js"></script>
 	<script src="js/moment.min.js"></script>
 	<script src="js/daterangepicker.js"></script>
+	<script src="js/enviarWpp.js"></script>
 
 	<script src="js/typed.js"></script>
 	<script>
