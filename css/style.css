@@ -1,3 +1,8 @@
+
+html {
+  scroll-behavior: smooth; /* Ativa o comportamento de rolagem suave */
+}
+
 body {
   font-family: "Inter", sans-serif;
   line-height: 1.5;
@@ -492,7 +497,7 @@ letter-spacing: 2px;}
   cursor: pointer;
   position: relative; }
   .burger.light:before, .burger.light span, .burger.light:after {
-    background: #ffffff; }
+    background: #000; }
 
 .burger:before, .burger span, .burger:after {
   width: 100%;
@@ -1395,8 +1400,8 @@ letter-spacing: 2px;}
         position: fixed;
         bottom: 20px;
         right: 20px;
-        background-color: #25D366;
-        color: white;
+        background-image: url(/images/whatsapp.png);
+        color: rgb(159, 24, 24);
         border-radius: 50%;
         width: 60px;
         height: 60px;
@@ -1410,4 +1415,23 @@ letter-spacing: 2px;}
 
     .whatsapp-button:hover {
         background-color: #1ebe57;
+    }
+
+    .teste999{
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      .site-nav{
+        background-color: #ffcf23;
+       
+        position: fixed;
+        top: 0;
+        
+      }
+      
+      
     }
