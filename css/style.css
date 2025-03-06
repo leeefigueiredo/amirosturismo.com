@@ -1424,6 +1424,13 @@ letter-spacing: 2px;}
       align-items: center;
     }
 
+
+    .icones-pacotes img{
+    
+
+      padding: 10px;
+    }
+
     @media screen and (max-width: 768px) {
       .site-nav{
         background-color: #ffcf23;
