@@ -1322,10 +1322,12 @@ letter-spacing: 2px;}
   font-size: 20px; }
 
 .site-footer {
+  
   font-size: 14px;
   color: #777;
   line-height: 1.6; }
   .site-footer .inner {
+    
     padding-top: 0px;
     padding-bottom: 70px;
     background: #f8f9fa; }
@@ -1429,6 +1431,15 @@ letter-spacing: 2px;}
     
 
       padding: 10px;
+    }
+
+    .Cadastur{
+      border-radius: 10%;
+      border: 1px solid red;
+    }
+
+    .linkcadastrur{
+      
     }
 
     @media screen and (max-width: 768px) {
